@@ -6,3 +6,4 @@ execution:
    
    scenario:Choose Flight
 scenarios:
+   requests:
