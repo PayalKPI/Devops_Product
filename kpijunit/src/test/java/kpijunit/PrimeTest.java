@@ -6,7 +6,7 @@ public class PrimeTest {
 	@Test
 	public void evaluateExpression() {
 		Prime p = new Prime();
-		boolean ans = p.isPrime(12);
-		assertEquals(true, ans);
+		boolean ans = p.isPrime(15);
+		assertEquals(false, ans);
 	}
 }
