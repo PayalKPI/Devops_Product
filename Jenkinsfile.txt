@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building for PROD environment..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing for PROD environment..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying for PROD environment....'
+            }
+        }
+    }
+}
